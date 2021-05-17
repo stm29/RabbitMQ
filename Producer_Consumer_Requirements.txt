@@ -1,0 +1,4 @@
+Needs to Install "pika" Library in your system manually by using pip
+Version of pika library affects consumer functions such as channel.basic_consume(callback, queue='hello', no_ack=True)  
+  Ref StackOverFlow Link - https://stackoverflow.com/questions/50404273/python-tutorial-code-from-rabbitmq-failing-to-run
+Need to USE SHEBANG line in scripts, which will make "import" command to run properly, orelse ERR will bw shown
